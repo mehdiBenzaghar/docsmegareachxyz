@@ -7,9 +7,9 @@ Choose the perfect plan to accelerate your social growth. All plans include core
 | Plan | Monthly Price | Annual Price | Best For |
 |------|--------------|--------------|----------|
 | **Free** | $0 | $0 | Try MegaReach |
-| **Starter** | $9.99 | $99/year (2 months free) | Individuals |
-| **Growth** | $29.99 | $299/year (2 months free) | Active Creators |
-| **Pro** | $99.99 | $999/year (2 months free) | Brands & Agencies |
+| **Starter** | (TBD) | (TBD) | Individuals |
+| **Growth** | (TBD) | (TBD) | Active Creators |
+| **Pro** | (TBD) | (TBD) | Brands & Agencies |
 | **Enterprise** | Custom | Custom | Large Organizations |
 
 ## Plan Comparison
@@ -54,7 +54,7 @@ Choose the perfect plan to accelerate your social growth. All plans include core
 
 ## Plan Details
 
-### Free Plan ($0)
+### Free Plan
 
 Perfect for trying MegaReach:
 
@@ -78,7 +78,7 @@ Perfect for trying MegaReach:
 - Hobby projects
 - Learning the features
 
-### Starter Plan ($9.99/month)
+### Starter Plan (TBD)
 
 Great for individuals getting serious:
 
@@ -103,7 +103,7 @@ Great for individuals getting serious:
 - Freelancers
 - Side projects
 
-### Growth Plan ($29.99/month)
+### Growth Plan (TBD)
 
 Perfect for active creators and growing brands:
 
@@ -131,7 +131,7 @@ Perfect for active creators and growing brands:
 - Marketing agencies
 - Influencers
 
-### Pro Plan ($99.99/month)
+### Pro Plan (TBD)
 
 Comprehensive solution for professionals:
 
@@ -160,7 +160,7 @@ Comprehensive solution for professionals:
 - Multiple accounts
 - Agencies
 
-### Enterprise Plan (Custom Pricing)
+### Enterprise Plan (TBD)
 
 Tailored solutions for large organizations:
 
@@ -193,32 +193,32 @@ Tailored solutions for large organizations:
 ### Additional Credits
 
 Buy extra credits anytime:
-- 1,000 credits: $9.99
-- 5,000 credits: $39.99 (20% discount)
-- 10,000 credits: $69.99 (30% discount)
-- 50,000 credits: $299.99 (40% discount)
+- 1,000 credits: (TBD)
+- 5,000 credits: (TBD)
+- 10,000 credits: (TBD)
+- 50,000 credits: (TBD)
 
 ### Premium Features
 
-**Advanced AI Training** ($49.99/month)
+**Advanced AI Training** (TBD)
 - Custom personality development
 - Brand voice fine-tuning
 - Industry-specific training
 - Competitor differentiation
 
-**White Label** ($199.99/month)
+**White Label** (TBD)
 - Remove MegaReach branding
 - Custom domain
 - Branded emails
 - Custom colors and logos
 
-**Priority Infrastructure** ($99.99/month)
+**Priority Infrastructure** (TBD)
 - Dedicated servers
 - 99.99% uptime SLA
 - Priority processing
 - Enhanced security
 
-**Compliance Package** ($149.99/month)
+**Compliance Package** (TBD)
 - GDPR tools
 - CCPA compliance
 - Data residency options
@@ -280,7 +280,7 @@ Buy extra credits anytime:
 
 **Startup Program**: 6 months free Pro plan
 - Less than 2 years old
-- Under $1M funding
+- Under (TBD) funding
 - Application required
 
 **Referral Program**: Earn 30% commission

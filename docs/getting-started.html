@@ -1,175 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Getting Started - MegaReach Documentation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-light.min.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: #f5f5f5;
-        }
-        .container {
-            max-width: 1200px;
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 980px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 45px;
         }
-        header {
-            background: #2c3e50;
-            color: white;
-            padding: 20px 0;
-            margin-bottom: 30px;
+        @media (max-width: 767px) {
+            body {
+                padding: 15px;
+            }
         }
-        header h1 {
-            text-align: center;
-        }
-        nav {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            margin-bottom: 30px;
-        }
-        nav ul {
-            list-style: none;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-        nav a {
-            color: #3498db;
-            text-decoration: none;
-            font-weight: 500;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .content {
-            background: white;
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        h2 {
-            color: #2c3e50;
-            margin-bottom: 20px;
-        }
-        h3 {
-            color: #34495e;
-            margin-top: 30px;
-            margin-bottom: 15px;
-        }
-        .section {
-            margin-bottom: 30px;
-        }
-        .card {
-            background: #f8f9fa;
-            padding: 20px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-        }
-        .card h4 {
-            color: #3498db;
-            margin-bottom: 10px;
-        }
-        a.button {
-            display: inline-block;
-            background: #3498db;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 5px;
-            text-decoration: none;
-            margin-top: 10px;
-        }
-        a.button:hover {
-            background: #2980b9;
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 980px;
+            margin: 0 auto;
         }
     </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>MegaReach Documentation</h1>
-        </div>
-    </header>
-    
-    <div class="container">
-        <nav>
-            <ul>
-                <li><a href="/docs/getting-started.html">Getting Started</a></li>
-                <li><a href="/docs/features/">Features</a></li>
-                <li><a href="/docs/users/">For Users</a></li>
-                <li><a href="/docs/creators/">For Creators</a></li>
-                <li><a href="/docs/brands/">For Brands</a></li>
-                <li><a href="/docs/api/">API Reference</a></li>
-            </ul>
-        </nav>
+    <article class="markdown-body">
+        <h1>Getting Started with MegaReach</h1>
         
-        <div class="content">
-            <h2>Getting Started with MegaReach</h2>
-            
-            <div class="section">
-                <h3>Welcome to MegaReach</h3>
-                <p>MegaReach is a revolutionary Web3 social media automation platform that connects brands, creators, and users through AI-powered engagement tools and blockchain rewards.</p>
-            </div>
-            
-            <div class="section">
-                <h3>Quick Start Guides</h3>
-                
-                <div class="card">
-                    <h4>For Users</h4>
-                    <p>Learn how to set up your account, earn $REACH tokens, and maximize your engagement rewards.</p>
-                    <a href="/docs/users/" class="button">User Guide →</a>
-                </div>
-                
-                <div class="card">
-                    <h4>For Creators</h4>
-                    <p>Discover how to grow your audience, monetize your content, and leverage AI tools for better engagement.</p>
-                    <a href="/docs/creators/" class="button">Creator Guide →</a>
-                </div>
-                
-                <div class="card">
-                    <h4>For Brands</h4>
-                    <p>Explore partnership opportunities, campaign management, and how to reach your target audience effectively.</p>
-                    <a href="/docs/brands/" class="button">Brand Guide →</a>
-                </div>
-            </div>
-            
-            <div class="section">
-                <h3>Key Features</h3>
-                <ul>
-                    <li><strong>ReplyGuy AI:</strong> Automated intelligent responses that maintain authentic engagement</li>
-                    <li><strong>MegaBoost:</strong> Amplify your content reach with targeted promotion tools</li>
-                    <li><strong>$REACH Tokens:</strong> Earn rewards for genuine engagement and participation</li>
-                    <li><strong>MegaETH Integration:</strong> Seamless blockchain integration for transparent rewards</li>
-                    <li><strong>Analytics Dashboard:</strong> Track your performance and optimize your strategy</li>
-                </ul>
-                <p><a href="/docs/features/">Learn more about features →</a></p>
-            </div>
-            
-            <div class="section">
-                <h3>API Integration</h3>
-                <p>Developers can integrate MegaReach functionality into their applications using our comprehensive API.</p>
-                <a href="/docs/api/" class="button">View API Documentation →</a>
-            </div>
-            
-            <div class="section">
-                <h3>Need Help?</h3>
-                <p>If you have questions or need assistance, check out our community resources:</p>
-                <ul>
-                    <li>Discord Community: Join for real-time support</li>
-                    <li>Twitter: Follow @MegaReachAI for updates</li>
-                    <li>Email Support: support@megarearch.xyz</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+        <p><a href="../">← Back to Home</a></p>
+        
+        <h2>Welcome to MegaReach</h2>
+        <p>MegaReach is a revolutionary Web3 social media automation platform that connects brands, creators, and users through AI-powered engagement tools and blockchain rewards.</p>
+        
+        <h2>Quick Start Guides</h2>
+        
+        <h3>🧑‍💻 For Users</h3>
+        <p>Learn how to set up your account, earn $REACH tokens, and maximize your engagement rewards.</p>
+        <ul>
+            <li>Account setup and verification</li>
+            <li>Connecting social media accounts</li>
+            <li>Earning and managing rewards</li>
+            <li>Using ReplyGuy AI for engagement</li>
+        </ul>
+        <p><strong><a href="../users/">Go to User Guide →</a></strong></p>
+        
+        <h3>🎨 For Creators</h3>
+        <p>Discover how to grow your audience, monetize your content, and leverage AI tools for better engagement.</p>
+        <ul>
+            <li>Growing your audience with MegaBoost</li>
+            <li>Monetization strategies</li>
+            <li>Brand partnership opportunities</li>
+            <li>Analytics and performance tracking</li>
+        </ul>
+        <p><strong><a href="../creators/">Go to Creator Guide →</a></strong></p>
+        
+        <h3>🏢 For Brands</h3>
+        <p>Explore partnership opportunities, campaign management, and how to reach your target audience effectively.</p>
+        <ul>
+            <li>Campaign creation and management</li>
+            <li>Creator partnerships</li>
+            <li>ROI tracking and analytics</li>
+            <li>Enterprise solutions</li>
+        </ul>
+        <p><strong><a href="../brands/">Go to Brand Guide →</a></strong></p>
+        
+        <h2>Key Features</h2>
+        <ul>
+            <li><strong>ReplyGuy AI:</strong> Automated intelligent responses that maintain authentic engagement</li>
+            <li><strong>MegaBoost:</strong> Amplify your content reach with targeted promotion tools</li>
+            <li><strong>$REACH Tokens:</strong> Earn rewards for genuine engagement and participation</li>
+            <li><strong>MegaETH Integration:</strong> Seamless blockchain integration for transparent rewards</li>
+            <li><strong>Analytics Dashboard:</strong> Track your performance and optimize your strategy</li>
+        </ul>
+        <p><a href="../features/">Learn more about features →</a></p>
+        
+        <h2>API Integration</h2>
+        <p>Developers can integrate MegaReach functionality into their applications using our comprehensive API.</p>
+        <ul>
+            <li>RESTful API endpoints</li>
+            <li>WebSocket support for real-time updates</li>
+            <li>SDKs for popular programming languages</li>
+            <li>Webhook integration</li>
+        </ul>
+        <p><strong><a href="../api/">View API Documentation →</a></strong></p>
+        
+        <h2>Getting Help</h2>
+        <p>If you have questions or need assistance, we're here to help:</p>
+        <ul>
+            <li><strong>Discord Community:</strong> Join for real-time support</li>
+            <li><strong>Twitter:</strong> Follow @MegaReachAI for updates</li>
+            <li><strong>Email Support:</strong> support@megareach.xyz</li>
+        </ul>
+        
+        <h2>Next Steps</h2>
+        <ol>
+            <li>Choose your user type (User, Creator, or Brand)</li>
+            <li>Follow the appropriate setup guide</li>
+            <li>Connect your social media accounts</li>
+            <li>Start earning rewards and growing your presence</li>
+        </ol>
+        
+        <hr>
+        <p><small>© 2024 MegaReach. All rights reserved.</small></p>
+    </article>
 </body>
 </html>

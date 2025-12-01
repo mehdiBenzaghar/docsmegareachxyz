@@ -40,13 +40,13 @@ Content Tiers:
     - Basic tutorials
     Purpose: Audience growth
     
-  Premium Tier ($9.99/month):
+  Premium Tier (TBD):
     - Exclusive deep dives
     - Early access content
     - Monthly Q&A sessions
     Purpose: Recurring revenue
     
-  VIP Tier ($49.99/month):
+  VIP Tier (TBD):
     - 1-on-1 consultations
     - Custom content requests
     - Private community access
@@ -98,7 +98,7 @@ Accept direct support:
 ### 4. Paid Replies
 
 Monetize your expertise:
-- Set price for guaranteed replies
+- Set pricing for guaranteed replies
 - Priority response queue
 - Custom pricing tiers
 - Bulk reply packages
@@ -130,9 +130,9 @@ Creator Profile {
 }
 
 // Matched Brands:
-// - Gaming peripherals: $2,000/post
-// - Software tools: $1,500/post
-// - Tech accessories: $1,000/post
+// - Gaming peripherals: (TBD)/post
+// - Software tools: (TBD)/post
+// - Tech accessories: (TBD)/post
 ```
 
 ### Campaign Management
@@ -178,7 +178,7 @@ Automatically monetize recommendations:
 Dashboard Metrics:
 - Clicks: 10,432 this month
 - Conversions: 287 (2.75% CR)
-- Revenue: $4,821.50
+- Revenue: (TBD)
 - Top Products: [Tech, Books, Courses]
 - Best Times: Weekday evenings
 ```
@@ -262,7 +262,7 @@ Staking Tiers:
 
 **Focus**: Building foundation
 ```
-Monthly Target: $500-2,000
+Monthly Target: (TBD)
 - Affiliate marketing: 40%
 - Tips and donations: 30%
 - Small sponsorships: 30%
@@ -278,7 +278,7 @@ Monthly Target: $500-2,000
 
 **Focus**: Diversifying income
 ```
-Monthly Target: $2,000-10,000
+Monthly Target: (TBD)
 - Brand partnerships: 40%
 - Subscriptions: 30%
 - Affiliate marketing: 20%
@@ -295,7 +295,7 @@ Monthly Target: $2,000-10,000
 
 **Focus**: Scaling revenue
 ```
-Monthly Target: $10,000-50,000
+Monthly Target: (TBD)
 - Brand deals: 35%
 - Product sales: 25%
 - Subscriptions: 20%
@@ -312,7 +312,7 @@ Monthly Target: $10,000-50,000
 
 **Focus**: Empire building
 ```
-Monthly Target: $50,000+
+Monthly Target: (TBD)
 - Enterprise partnerships: 30%
 - Product lines: 25%
 - Licensing deals: 20%
@@ -378,21 +378,21 @@ Optimize for monetization:
 ### Tech Reviewer - Sarah K.
 - Started: 5K followers
 - Now: 250K followers
-- Monthly revenue: $35,000
+- Monthly revenue: (TBD)
 - Primary income: Brand deals + affiliates
 - Success factor: Consistent quality reviews
 
 ### Finance Educator - Michael R.
 - Started: 10K followers
 - Now: 500K followers
-- Monthly revenue: $75,000
+- Monthly revenue: (TBD)
 - Primary income: Courses + subscriptions
 - Success factor: Value-packed content
 
 ### Lifestyle Creator - Emma L.
 - Started: 2K followers
 - Now: 150K followers
-- Monthly revenue: $20,000
+- Monthly revenue: (TBD)
 - Primary income: Sponsorships + products
 - Success factor: Authentic engagement
 
