@@ -13,7 +13,7 @@ Welcome to MegaReach! This guide will help you get up and running with our AI-po
 ## What is MegaReach?
 
 MegaReach is an advanced social media automation platform that leverages AI to help you:
-- 🤖 Automatically engage with relevant content (ReplyGuy AI)
+- 🤖 Automatically engage with relevant content (ReplyGuy)
 - 🚀 Boost all your tweets automatically (MegaBoost)
 - 📊 Monitor social mentions and keywords 24/7
 - 💰 Earn rewards through MegaETH blockchain integration
@@ -25,7 +25,7 @@ MegaReach is an advanced social media automation platform that leverages AI to h
 
 1. Visit [app.megareach.xyz](https://app.megareach.xyz)
 2. Click **"Get Started"** 
-3. Connect your wallet (MetaMask, WalletConnect, or email)
+3. Connect your X, Discord...
 4. Complete your profile setup
 
 ### Step 2: Connect Your Social Accounts
@@ -35,7 +35,7 @@ MegaReach is an advanced social media automation platform that leverages AI to h
 3. Authorize MegaReach to manage your account
 4. Optional: Connect additional platforms (Discord, Telegram)
 
-### Step 3: Choose Your Subscription
+### Step 3: Choose Your Subscription (TBD)
 
 Select the plan that fits your needs:
 - **Starter** - Perfect for individuals ($9.99/month)
@@ -45,7 +45,7 @@ Select the plan that fits your needs:
 
 ## Core Concepts
 
-### ReplyGuy AI
+### ReplyGuy
 Our intelligent reply system that:
 - Analyzes tweet context and sentiment
 - Generates relevant, engaging responses
@@ -75,9 +75,9 @@ Blockchain features include:
 
 ## First Steps
 
-### 1. Configure ReplyGuy AI
+### 1. Configure ReplyGuy
 
-Navigate to **Features** → **ReplyGuy AI**:
+Navigate to **Features** → **ReplyGuy**:
 
 ```
 Settings to configure:
@@ -150,44 +150,10 @@ Actions:
 - Rate limits based on plan
 - Comprehensive documentation
 
-## Subscription Tiers
-
-### Starter ($9.99/month)
-- 100 AI replies/day
-- 50 auto-boosts/day
-- Basic analytics
-- 1 social account
-- Email support
-
-### Growth ($29.99/month)
-- 500 AI replies/day
-- 200 auto-boosts/day
-- Advanced analytics
-- 3 social accounts
-- Priority support
-- Custom workflows
-
-### Pro ($99.99/month)
-- Unlimited AI replies
-- Unlimited auto-boosts
-- Full analytics suite
-- Unlimited social accounts
-- Team collaboration (5 users)
-- API access
-- Dedicated support
-
-### Enterprise (Custom)
-- Everything in Pro
-- Custom AI training
-- White-label options
-- Unlimited team members
-- SLA guarantee
-- Dedicated account manager
-
 ## Next Steps
 
 Now that you're set up, explore:
-- [ReplyGuy AI Deep Dive](./features/replyguy-ai.md)
+- [ReplyGuy Deep Dive](./features/replyguy-ai.md)
 - [MegaBoost Strategies](./features/megaboost.md)
 - [Brand Partnership Guide](./brands/partnership-guide.md)
 - [Creator Monetization](./creators/monetization.md)
@@ -195,10 +161,7 @@ Now that you're set up, explore:
 ## Need Help?
 
 - 📧 Email: support@megareach.xyz
-- 💬 Discord: [Join our community](https://discord.gg/megareach)
 - 📖 FAQ: [Common questions answered](./faq.md)
-- 🎥 Video Tutorials: [YouTube channel](https://youtube.com/@megareach)
-
 ---
 
-*Last updated: December 2024*
+*Last updated: December 2025*
