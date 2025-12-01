@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Reference - MegaReach Documentation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background: #282c34;
+            color: #61dafb;
+            padding: 20px 0;
+            margin-bottom: 30px;
+        }
+        header h1 {
+            text-align: center;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+        nav {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        nav a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #282c34;
+            margin-bottom: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+        h3 {
+            color: #2c3e50;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+        .endpoint {
+            background: #282c34;
+            color: #abb2bf;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .endpoint .method {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .endpoint .method.get { background: #61affe; color: white; }
+        .endpoint .method.post { background: #49cc90; color: white; }
+        .endpoint .method.put { background: #fca130; color: white; }
+        .endpoint .method.delete { background: #f93e3e; color: white; }
+        .endpoint .path {
+            color: #61dafb;
+            font-size: 1.1em;
+        }
+        .code-block {
+            background: #f6f8fa;
+            border: 1px solid #e1e4e8;
+            border-radius: 6px;
+            padding: 16px;
+            margin: 15px 0;
+            overflow-x: auto;
+        }
+        .code-block code {
+            color: #24292e;
+            font-size: 0.95em;
+        }
+        .params-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .params-table th, .params-table td {
+            border: 1px solid #e1e4e8;
+            padding: 12px;
+            text-align: left;
+        }
+        .params-table th {
+            background: #f6f8fa;
+            font-weight: bold;
+        }
+        .params-table .required {
+            color: #f93e3e;
+            font-weight: bold;
+        }
+        .auth-section {
+            background: #fff4e6;
+            border-left: 4px solid #ffa726;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>MegaReach API Documentation</h1>
+        </div>
+    </header>
+    
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="/docs/getting-started.html">Getting Started</a></li>
+                <li><a href="/docs/features/">Features</a></li>
+                <li><a href="/docs/users/">For Users</a></li>
+                <li><a href="/docs/creators/">For Creators</a></li>
+                <li><a href="/docs/brands/">For Brands</a></li>
+                <li><a href="/docs/api/">API Reference</a></li>
+            </ul>
+        </nav>
+        
+        <div class="content">
+            <h2>API Overview</h2>
+            <p>The MegaReach API provides programmatic access to our platform's features, allowing developers to integrate social automation, rewards, and analytics into their applications.</p>
+            
+            <div class="auth-section">
+                <h3>🔐 Authentication</h3>
+                <p>All API requests require authentication using an API key. Include your API key in the request header:</p>
+                <div class="code-block">
+                    <code>Authorization: Bearer YOUR_API_KEY</code>
+                </div>
+                <p>Get your API key from the <a href="/dashboard/api-keys">Dashboard → API Keys</a></p>
+            </div>
+            
+            <div class="section">
+                <h3>Base URL</h3>
+                <div class="code-block">
+                    <code>https://api.megarearch.xyz/v1</code>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h3>Core Endpoints</h3>
+                
+                <div class="endpoint">
+                    <span class="method get">GET</span>
+                    <span class="path">/user/profile</span>
+                    <p style="margin-top: 10px;">Get user profile information</p>
+                </div>
+                
+                <div class="endpoint">
+                    <span class="method post">POST</span>
+                    <span class="path">/engagement/reply</span>
+                    <p style="margin-top: 10px;">Generate AI-powered reply</p>
+                </div>
+                
+                <div class="endpoint">
+                    <span class="method get">GET</span>
+                    <span class="path">/rewards/balance</span>
+                    <p style="margin-top: 10px;">Get $REACH token balance</p>
+                </div>
+                
+                <div class="endpoint">
+                    <span class="method post">POST</span>
+                    <span class="path">/campaign/create</span>
+                    <p style="margin-top: 10px;">Create marketing campaign</p>
+                </div>
+                
+                <div class="endpoint">
+                    <span class="method get">GET</span>
+                    <span class="path">/analytics/overview</span>
+                    <p style="margin-top: 10px;">Get analytics overview</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h3>Example: Generate AI Reply</h3>
+                <p>Request:</p>
+                <div class="code-block">
+                    <code>POST /v1/engagement/reply
+Content-Type: application/json
+Authorization: Bearer YOUR_API_KEY
+
+{
+  "content": "Great product! How does it work?",
+  "context": "Product announcement tweet",
+  "tone": "friendly",
+  "platform": "twitter"
+}</code>
+                </div>
+                
+                <p>Response:</p>
+                <div class="code-block">
+                    <code>{
+  "success": true,
+  "data": {
+    "reply": "Thank you for your interest! Our product uses advanced AI...",
+    "confidence": 0.92,
+    "tokens_earned": 5
+  }
+}</code>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h3>Request Parameters</h3>
+                <table class="params-table">
+                    <thead>
+                        <tr>
+                            <th>Parameter</th>
+                            <th>Type</th>
+                            <th>Required</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>content</td>
+                            <td>string</td>
+                            <td><span class="required">Yes</span></td>
+                            <td>The content to respond to</td>
+                        </tr>
+                        <tr>
+                            <td>context</td>
+                            <td>string</td>
+                            <td>No</td>
+                            <td>Additional context for better responses</td>
+                        </tr>
+                        <tr>
+                            <td>tone</td>
+                            <td>string</td>
+                            <td>No</td>
+                            <td>Response tone: friendly, professional, casual</td>
+                        </tr>
+                        <tr>
+                            <td>platform</td>
+                            <td>string</td>
+                            <td><span class="required">Yes</span></td>
+                            <td>Social platform: twitter, instagram, linkedin</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="section">
+                <h3>Rate Limits</h3>
+                <ul>
+                    <li><strong>Free Tier:</strong> 100 requests/hour</li>
+                    <li><strong>Pro Tier:</strong> 1,000 requests/hour</li>
+                    <li><strong>Enterprise:</strong> Custom limits</li>
+                </ul>
+                <p>Rate limit headers are included in all responses:</p>
+                <div class="code-block">
+                    <code>X-RateLimit-Limit: 1000
+X-RateLimit-Remaining: 999
+X-RateLimit-Reset: 1640995200</code>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h3>Error Handling</h3>
+                <p>All errors return appropriate HTTP status codes and error messages:</p>
+                <div class="code-block">
+                    <code>{
+  "success": false,
+  "error": {
+    "code": "RATE_LIMIT_EXCEEDED",
+    "message": "Rate limit exceeded. Try again in 60 seconds.",
+    "details": {
+      "limit": 100,
+      "reset_at": "2024-01-01T12:00:00Z"
+    }
+  }
+}</code>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h3>SDKs & Libraries</h3>
+                <ul>
+                    <li><strong>JavaScript/Node.js:</strong> <code>npm install @megarearch/sdk</code></li>
+                    <li><strong>Python:</strong> <code>pip install megarearch</code></li>
+                    <li><strong>Go:</strong> <code>go get github.com/megarearch/go-sdk</code></li>
+                    <li><strong>PHP:</strong> <code>composer require megarearch/php-sdk</code></li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h3>Webhooks</h3>
+                <p>Configure webhooks to receive real-time events:</p>
+                <ul>
+                    <li>Campaign completion</li>
+                    <li>Reward distribution</li>
+                    <li>Engagement milestones</li>
+                    <li>Creator partnership requests</li>
+                </ul>
+            </div>
+            
+            <p style="margin-top: 30px;">
+                <a href="/docs/api/reference.html" style="color: #3498db; font-weight: bold;">
+                    View Complete API Reference →
+                </a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

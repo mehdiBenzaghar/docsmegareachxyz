@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Brands - MegaReach Documentation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background: #1a1a2e;
+            color: white;
+            padding: 20px 0;
+            margin-bottom: 30px;
+        }
+        header h1 {
+            text-align: center;
+        }
+        nav {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        nav a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #1a1a2e;
+            margin-bottom: 20px;
+        }
+        h3 {
+            color: #2c3e50;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .stat-card {
+            background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .stat-card .number {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .stat-card .label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        .service-card {
+            border: 1px solid #e9ecef;
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            background: #fafafa;
+        }
+        .service-card h4 {
+            color: #1a1a2e;
+            margin-bottom: 15px;
+        }
+        .pricing-table {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .pricing-card {
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            position: relative;
+        }
+        .pricing-card.featured {
+            border-color: #3498db;
+            transform: scale(1.05);
+        }
+        .pricing-card h4 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #1a1a2e;
+        }
+        .price {
+            font-size: 2em;
+            font-weight: bold;
+            color: #3498db;
+            margin: 20px 0;
+        }
+        ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #1a1a2e;
+            color: white;
+            padding: 15px 40px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .cta-button:hover {
+            background: #2c3e50;
+        }
+        .badge {
+            position: absolute;
+            top: -10px;
+            right: 20px;
+            background: #e74c3c;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>MegaReach for Brands</h1>
+        </div>
+    </header>
+    
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="/docs/getting-started.html">Getting Started</a></li>
+                <li><a href="/docs/features/">Features</a></li>
+                <li><a href="/docs/users/">For Users</a></li>
+                <li><a href="/docs/creators/">For Creators</a></li>
+                <li><a href="/docs/brands/">For Brands</a></li>
+                <li><a href="/docs/api/">API Reference</a></li>
+            </ul>
+        </nav>
+        
+        <div class="content">
+            <h2>Enterprise Marketing Solutions</h2>
+            <p>Amplify your brand's reach with Web3-powered social media marketing and authentic creator partnerships.</p>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="number">10M+</div>
+                    <div class="label">Active Users</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">50K+</div>
+                    <div class="label">Verified Creators</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">500%</div>
+                    <div class="label">Avg. ROI Increase</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">24/7</div>
+                    <div class="label">AI Engagement</div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h3>Our Services</h3>
+                
+                <div class="service-card">
+                    <h4>🎯 Targeted Campaign Management</h4>
+                    <p>Launch and manage multi-platform campaigns with precision targeting:</p>
+                    <ul>
+                        <li>Demographics and interest-based targeting</li>
+                        <li>Real-time campaign optimization</li>
+                        <li>A/B testing capabilities</li>
+                        <li>Cross-platform coordination</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <h4>🤖 AI-Powered Engagement</h4>
+                    <p>Maintain 24/7 brand presence with intelligent automation:</p>
+                    <ul>
+                        <li>Automated responses to customer inquiries</li>
+                        <li>Sentiment analysis and crisis prevention</li>
+                        <li>Content moderation and brand safety</li>
+                        <li>Personalized interaction at scale</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <h4>👥 Creator Partnerships</h4>
+                    <p>Connect with verified creators for authentic promotion:</p>
+                    <ul>
+                        <li>Access to 50,000+ verified influencers</li>
+                        <li>Smart matching based on brand fit</li>
+                        <li>Transparent performance tracking</li>
+                        <li>Automated contract and payment processing</li>
+                    </ul>
+                    <a href="/docs/brands/partnership-guide.html">View partnership guide →</a>
+                </div>
+                
+                <div class="service-card">
+                    <h4>📊 Analytics & Reporting</h4>
+                    <p>Comprehensive insights for data-driven decisions:</p>
+                    <ul>
+                        <li>Real-time performance dashboards</li>
+                        <li>ROI and attribution tracking</li>
+                        <li>Competitor analysis</li>
+                        <li>Custom reports and insights</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h3>Pricing Plans</h3>
+                <div class="pricing-table">
+                    <div class="pricing-card">
+                        <h4>Starter</h4>
+                        <div class="price">$2,999/mo</div>
+                        <ul style="list-style: none; margin-left: 0;">
+                            <li>✓ Up to 100K engagements</li>
+                            <li>✓ 5 creator partnerships</li>
+                            <li>✓ Basic analytics</li>
+                            <li>✓ Email support</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pricing-card featured">
+                        <span class="badge">Most Popular</span>
+                        <h4>Professional</h4>
+                        <div class="price">$9,999/mo</div>
+                        <ul style="list-style: none; margin-left: 0;">
+                            <li>✓ Up to 1M engagements</li>
+                            <li>✓ 25 creator partnerships</li>
+                            <li>✓ Advanced analytics</li>
+                            <li>✓ Priority support</li>
+                            <li>✓ Custom AI training</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pricing-card">
+                        <h4>Enterprise</h4>
+                        <div class="price">Custom</div>
+                        <ul style="list-style: none; margin-left: 0;">
+                            <li>✓ Unlimited engagements</li>
+                            <li>✓ Unlimited partnerships</li>
+                            <li>✓ White-label options</li>
+                            <li>✓ Dedicated account manager</li>
+                            <li>✓ API access</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h3>Success Stories</h3>
+                <ul>
+                    <li><strong>TechCorp:</strong> 400% increase in social engagement, 2.5x ROI on ad spend</li>
+                    <li><strong>Fashion Brand X:</strong> 1M new followers in 3 months, 150% sales increase</li>
+                    <li><strong>Gaming Studio:</strong> Successfully launched 5 games with viral campaigns</li>
+                    <li><strong>DeFi Protocol:</strong> Grew community from 10K to 500K users in 6 months</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h3>Why Choose MegaReach?</h3>
+                <ul>
+                    <li><strong>Web3 Native:</strong> Built for the decentralized future of marketing</li>
+                    <li><strong>Transparent Pricing:</strong> No hidden fees, pay with crypto or fiat</li>
+                    <li><strong>Verified Network:</strong> All creators and users are KYC verified</li>
+                    <li><strong>Global Reach:</strong> Access audiences in 150+ countries</li>
+                    <li><strong>Compliance First:</strong> GDPR, CCPA, and Web3 compliant</li>
+                </ul>
+            </div>
+            
+            <a href="/docs/brands/partnership-guide.html" class="cta-button">Schedule Enterprise Demo →</a>
+        </div>
+    </div>
+</body>
+</html>
